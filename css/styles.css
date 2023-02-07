@@ -1,0 +1,151 @@
+body {
+  background-image: url(/imagenes/fondo.jpeg);
+  margin: 0px;
+  margin-bottom: 300px;
+  text-align: center;
+  font-family: "Allerta Stencil", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #7A85BF;
+}
+
+a:hover {
+  color: #3C4CA6;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #7A85BF;
+}
+
+.footer {
+  text-align: center;
+  font-size: 25px;
+  color: #7A85BF;
+}
+
+.headerIndice {
+  font-size: 20px;
+}
+
+.caja-indice {
+  border: 5px solid rgb(0, 0, 0);
+  background-color: #733646;
+  font-weight: bolder;
+  font-size: 30px;
+  line-height: 80px;
+  margin: 20px;
+  text-align: center;
+}
+
+.caja-indice:hover {
+  filter: blur(5px);
+  transition: all 0.9s ease-in-out;
+}
+
+.carousel-item > iframe {
+  height: 500px;
+  width: 1100px;
+}
+
+.shake {
+  font-size: 12rem;
+  margin: auto;
+}
+
+.shake:hover {
+  -webkit-animation: mover 1s;
+  animation: mover 1s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes mover {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  20% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  40% {
+    transform: translate(-3px, 0px) rotate(0deg);
+  }
+  60% {
+    transform: translate(3px, 2px) rotate(1deg);
+  }
+  80% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  100% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  20% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  40% {
+    transform: translate(-3px, 0px) rotate(0deg);
+  }
+  60% {
+    transform: translate(3px, 2px) rotate(1deg);
+  }
+  80% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  100% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+}
+.videoSkate {
+  position: relative;
+  padding-top: 30px;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.videoSkate iframe,
+.videoSkate object,
+.videoSkate embed {
+  position: center;
+  top: 0;
+  left: 0;
+  width: 900px;
+  height: 600px;
+}
+
+.flex-caja {
+  display: flex;
+  padding: 200px;
+  margin: 100px auto;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  border: 2px solid whitesmoke;
+  flex-direction: center;
+  color: whitesmoke;
+}
+.flex-caja .caja {
+  background: radial-gradient(black, transparent);
+}
+
+.grid-container {
+  display: grid;
+  color: whitesmoke;
+  border: 2px solid whitesmoke;
+  grid-template-columns: auto auto auto;
+  padding: 20px;
+}
+.grid-container div {
+  text-align: center;
+  border: 1px solid whitesmoke;
+  margin: 10px;
+  background: radial-gradient(black, transparent);
+}/*# sourceMappingURL=styles.css.map */

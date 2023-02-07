@@ -1,0 +1,14 @@
+.flex-caja {
+    display: flex;
+    padding: 200px;
+    margin: 100px auto;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    border: 2px solid whitesmoke;
+    flex-direction: center;
+    color: whitesmoke;
+
+    .caja{
+        background: radial-gradient(black,transparent);
+      }
+  }

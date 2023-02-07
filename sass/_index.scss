@@ -1,0 +1,18 @@
+.headerIndice {
+    font-size: 20px;
+  }
+  
+.caja-indice {
+    border: 5px solid rgb(0, 0, 0);
+    background-color: #733646;
+    font-weight: bolder;
+    font-size: 30px;
+    line-height: 80px;
+    margin: 20px;
+    text-align: center;
+  }
+
+  .caja-indice:hover{
+    filter: blur(5px);
+    transition:all .9s ease-in-out;
+  }
